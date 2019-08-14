@@ -22,6 +22,11 @@
     max-width: 640px;
     margin: 0 auto;
   }
+  .ar-model {
+    margin: 0 auto;
+    max-width: 600px;
+    height: 400px;
+  }
   img {
     max-width: 100%;
   }
@@ -34,7 +39,7 @@
 <div class="wrapper">
   <h1>WebAR by Model Viewer</h1>
   <figure class="ar-img">
-    <model-viewer poster="img/earth.gif" src="img/earth_ball.gltf" ios-src="img/earth_ball.usdz" ar quick-look-browsers auto-rotate alt="地球"></model-viewer>
+    <model-viewer class="ar-model" poster="img/earth.gif" src="img/earth_ball.gltf" ios-src="img/earth_ball.usdz" auto-rotate camera-controls ar alt="地球"></model-viewer>
     <figcaption>&copy; Robert Mirabelle</figcaption>
   </figure>
   <p class="ar-text">model-viewerはほぼ全てのブラウザーでAR体験を可能にします。</p>
