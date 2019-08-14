@@ -1,10 +1,10 @@
-WebAR with AR Quick Look
+WebAR with model-viewer
 ====
 
-This is a sample site to know AR Quick Look and WebAR.
+This is a sample site to know model-viewer and WebAR.
 
 ## Description
-You can refer to this repository to use AR Quick Look for AR project.
+You can refer to this repository to use model-viewer for AR project.
 
 ## Demo
 Please access by your mobile.  
